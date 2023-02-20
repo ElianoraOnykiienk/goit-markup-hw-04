@@ -150,6 +150,7 @@
      text-align: center;
      background-position: center;
      background-size: cover;
+     background-repeat: no-repeat;
      background-size: 1440px auto;
      padding-top: 188px;
      padding-bottom: 188px;
@@ -213,6 +214,15 @@
 
  .link-instruction {
      flex-basis: calc((100% - 72px)/4);
+ }
+
+ .icon {
+     display: inline-flex;
+     text-decoration: none;
+     width: 264px;
+     height: 112px;
+     background: #F4F4FD;
+     border-radius: 4px;
  }
 
 
