@@ -212,19 +212,50 @@
      margin-left: 24px;
  }
 
+
  .link-instruction {
      flex-basis: calc((100% - 72px)/4);
  }
 
- .icon {
-     display: inline-flex;
-     text-decoration: none;
-     width: 264px;
-     height: 112px;
-     background: #F4F4FD;
+
+
+
+
+
+
+ .link-instruction::before {
+     content: "";
      border-radius: 4px;
-     align-items: center;
+     background: #F4F4FD;
+     display: block;
+     height: 112px;
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: 59.72px;
  }
+
+ .icon-Strategy::before {
+     background-image: url(../images/antenna.svg);
+ }
+
+ .icon-Punctuality::before {
+     background-image: url(../images/clock.svg);
+ }
+
+ .icon-Diligence::before {
+     background-image: url(../images/diagram.svg);
+ }
+
+ .icon-Technologies::before {
+     background-image: url(../images/astronaut.svg);
+ }
+
+
+
+
+
+
+
 
 
  .paragraph {
