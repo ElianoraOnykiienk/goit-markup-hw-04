@@ -204,6 +204,7 @@
  }
 
 
+
  .instruction {
      display: flex;
  }
@@ -218,6 +219,11 @@
  }
 
 
+ .social-icon {
+     width: 16px;
+     height: 16px;
+     background: #4D5AE5;
+ }
 
 
 
