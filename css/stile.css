@@ -203,6 +203,17 @@
      padding-bottom: 120px;
  }
 
+
+ .paragraph {
+     text-decoration: none;
+     color: var(--colol-secondary);
+     font-size: 16px;
+     line-height: 1.5;
+     letter-spacing: 0.02em;
+     margin-top: 0;
+     margin-bottom: 0;
+ }
+
  .instruction {
      display: flex;
  }
@@ -262,15 +273,7 @@
 
 
 
- .paragraph {
-     color: var(--colol-secondary);
-     font-size: 16px;
-     line-height: 1.5;
-     letter-spacing: 0.02em;
-     text-decoration: none;
-     margin-top: 0;
-     margin-bottom: 0;
- }
+
 
 
  /* Техніка */
@@ -345,7 +348,6 @@
      padding-bottom: 32px;
  }
 
-
  .paragraph-link {
      text-align: center;
      font-family: 'Roboto';
@@ -358,6 +360,8 @@
      margin-top: 8px;
      margin-bottom: 8px;
  }
+
+
 
 
  /* сайти */
