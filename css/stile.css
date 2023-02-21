@@ -203,8 +203,6 @@
      padding-bottom: 120px;
  }
 
-
-
  .instruction {
      display: flex;
  }
@@ -217,17 +215,6 @@
  .link-instruction {
      flex-basis: calc((100% - 72px)/4);
  }
-
- /* сайти */
- .social-icon {
-     width: 16px;
-     height: 16px;
-     background: #4D5AE5;
- }
-
-
-
-
 
  .link-instruction::before {
      content: "";
@@ -264,6 +251,17 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
  .paragraph {
      color: var(--colol-secondary);
      font-size: 16px;
@@ -276,6 +274,13 @@
 
 
  /* Техніка */
+
+
+ .section-link {
+     padding-top: 0;
+     padding-bottom: 120px;
+ }
+
  .section-img {
      color: var(--color-brand);
      font-weight: 700;
@@ -285,11 +290,6 @@
      letter-spacing: 0.02em;
      margin-top: 0;
      margin-bottom: 72px;
- }
-
- .section-link {
-     padding-top: 0;
-     padding-bottom: 120px;
  }
 
  .link-img {
@@ -304,31 +304,6 @@
 
 
  /* Співробітники */
- .section-li {
-     background: var(--color-main);
-     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-     border-radius: 0px 0px 4px 4px;
- }
-
- .section-li-li {
-     display: flex;
-     flex-wrap: wrap;
- }
-
- .section-li-li .section-li+.section-li {
-     margin-left: 24px;
- }
-
- .section-header {
-     color: var(--color-brand);
-     font-weight: 500;
-     font-size: 20px;
-     line-height: 1.2;
-     letter-spacing: 0.02em;
-     margin-top: 0;
-     margin-bottom: 8px;
- }
-
 
  .employees {
      background: #F4F4FD;
@@ -336,19 +311,19 @@
      padding-bottom: 120px;
  }
 
- .paragraph-link {
-     text-align: center;
-     font-family: 'Roboto';
-     font-style: normal;
-     font-weight: 400;
-     font-size: 16px;
-     line-height: 1.5;
-     text-align: center;
-     letter-spacing: 0.02em;
-     margin-top: 8px;
-     margin-bottom: 0;
+ .section-li-li {
+     display: flex;
+     flex-wrap: wrap;
+ }
 
+ .section-li {
+     background: var(--color-main);
+     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+     border-radius: 0px 0px 4px 4px;
+ }
 
+ .section-li-li .section-li+.section-li {
+     margin-left: 24px;
  }
 
  .section-header-link {
@@ -369,6 +344,84 @@
      padding-top: 32px;
      padding-bottom: 32px;
  }
+
+
+ .paragraph-link {
+     text-align: center;
+     font-family: 'Roboto';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 1.5;
+     text-align: center;
+     letter-spacing: 0.02em;
+     margin-top: 8px;
+     margin-bottom: 0;
+ }
+
+
+ /* сайти */
+ .socials-icon {
+     width: 16px;
+     height: 16px;
+
+
+ }
+
+ .socials-list {
+     display: flex;
+     gap: 24px;
+     justify-content: center;
+
+ }
+
+ .socials-link {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     width: 100%;
+     height: 100%;
+     border-radius: 50%;
+     background-color: var(--color-primary);
+     fill: #F4F4FD;
+
+ }
+
+ .socials-item {
+     width: 40px;
+     height: 40px;
+
+ }
+
+ .socials-link:hover {
+     fill: var(--color-hover);
+ }
+
+
+
+
+
+
+
+
+
+ .section-header {
+     color: var(--color-brand);
+     font-weight: 500;
+     font-size: 20px;
+     line-height: 1.2;
+     letter-spacing: 0.02em;
+     margin-top: 0;
+     margin-bottom: 8px;
+ }
+
+
+
+
+
+
+
+
 
  /* Футер */
 
