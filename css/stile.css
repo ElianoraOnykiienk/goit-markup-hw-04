@@ -410,8 +410,17 @@
      text-transform: capitalize;
      color: var(--color-brand);
      text-align: center;
-     margin-top: 130px;
-     margin-bottom: 72px;
+     justify-content: center;
+     align-items: center;
+ }
+
+
+ .section-customers {
+     padding-top: 130px;
+     padding-bottom: 72px;
+     align-items: center;
+     justify-content: center;
+     text-align: center;
  }
 
  .customers {
@@ -421,7 +430,6 @@
      flex-direction: row;
      gap: 24px;
      display: flex;
-
  }
 
  .customers-link {
@@ -440,13 +448,15 @@
  }
 
  .customers-icon {
-     fill: #8E8F99;
      height: 56px;
      width: 104px;
-
-
  }
 
+ .customers-icons {
+     height: 56px;
+     width: 104px;
+     fill: #8E8F99;
+ }
 
 
 
@@ -504,6 +514,14 @@
      width: 264px;
      height: 72px;
  }
+
+ /* сылка */
+
+ .social-media {}
+
+ .media {}
+
+ .media-link {}
 
 
 
