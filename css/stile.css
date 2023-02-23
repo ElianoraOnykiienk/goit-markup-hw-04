@@ -530,21 +530,27 @@
      line-height: 1.5;
      letter-spacing: 0.02em;
      color: var(--color-main);
+     margin-top: 0;
+     margin-bottom: 16px;
 
      justify-content: center;
      align-items: center;
 
-
  }
 
- .media-tital {}
+
+
+ .media-tital {
+     width: 208px;
+     height: 80px;
+     margin-left: 269px;
+
+ }
 
  .media-item {
      width: 40px;
      height: 40px;
-
      margin-right: 16px;
-
      max-width: 100%;
      align-items: center;
      justify-content: center;
