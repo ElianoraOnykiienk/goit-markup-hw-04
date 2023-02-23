@@ -444,6 +444,26 @@
      fill: #8E8F99;
  }
 
+ .customers-item:hover,
+ .customers-item:focus {
+     fill: var(--color-hover);
+ }
+
+ .customers-item .customers-icons:hover,
+ .customers-item .customers-icons:focus {
+     fill: var(--color-hover);
+ }
+
+
+
+ .customers-item:hover,
+ .customers-item:focus {
+     border-color: var(--color-hover);
+ }
+
+
+
+
 
 
 
@@ -510,24 +530,22 @@
      line-height: 1.5;
      letter-spacing: 0.02em;
      color: var(--color-main);
-     display: flex;
+
      justify-content: center;
      align-items: center;
 
 
  }
 
- .media-tital {
-     display: flex;
- }
+ .media-tital {}
 
  .media-item {
      width: 40px;
      height: 40px;
-     display: flex;
+
      margin-right: 16px;
-     margin-top: 40px;
-     max-width: 100px;
+
+     max-width: 100%;
      align-items: center;
      justify-content: center;
 
