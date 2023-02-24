@@ -480,6 +480,7 @@
 
 
 
+
  .footer {
      background: var(--color-brand);
      font-family: 'Roboto';
@@ -566,7 +567,7 @@
 
  .media-link:hover,
  .media-link:focus {
-     fill: rgba(255, 255, 255, 0.1);
+     background-color: #31D0AA;
 
  }
 
@@ -654,14 +655,13 @@
      display: flex;
      flex-wrap: wrap;
      gap: 48px 24px;
+
  }
 
- .box-tital {
-     display: block;
- }
 
- .box-tital:hover,
- .box-tital:focus {
+
+ .link-box:hover,
+ .link-box:focus {
      box-shadow:
          0px 1px 6px rgba(46, 47, 66, 0.08),
          0px 1px 1px rgba(46, 47, 66, 0.16),
