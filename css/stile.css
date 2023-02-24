@@ -411,8 +411,8 @@
  }
 
  .section-customers {
-     margin-top: 0;
-     margin-bottom: 72px;
+     padding-top: 135px;
+     padding-bottom: 120px;
  }
 
  .customers {
@@ -422,7 +422,7 @@
      flex-direction: row;
      gap: 24px;
      display: flex;
-     margin-top: 72px;
+
 
  }
 
